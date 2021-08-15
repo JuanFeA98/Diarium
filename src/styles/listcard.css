@@ -1,0 +1,67 @@
+.ListCard{
+    height: auto;
+    width: 90%;
+    box-sizing: border-box;
+    max-width: 500px;
+    background: #4d4d5f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    border-radius: 15px;
+    font-size: 25px;
+    color: #0d1522;
+    font-weight: 500;
+    border: 2px solid #4d4d5f;
+    padding: 15px 0;
+}
+/* 
+.ListCard:hover{
+    background: transparent;
+    border: 2px solid #4d4d5f;
+    color: white;
+    cursor: pointer;
+} */
+
+.works{
+    width: 95%;
+    height: auto;
+    background: rgb(146, 161, 187);
+    box-sizing: border-box;
+    padding-top: 10px;
+    /* padding-left: 15px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transition: 2s; */
+}
+
+
+.works input{
+    width: 90%;
+    height: 30px;
+    /* background: rgb(120, 134, 158); */
+    background: transparent;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    color: #0d1522;
+}
+
+.works input::placeholder{
+    color: #0d1522;
+    border: #0d1522;
+}
+
+.works button{
+    background: #0d1522;
+    margin-bottom: 10px;
+    color: rgb(146, 161, 187);
+    border: 0;
+    padding: 5px 12px;
+    border-radius: 12px;
+}

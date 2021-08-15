@@ -1,14 +1,19 @@
 .HomeCard{
-    background: #4d4d5f;
-    margin: 0 20px;
     height: 70px;
-    border-radius: 15px;
+    width: 90%;
+    box-sizing: border-box;
+    max-width: 500px;
+    background: #4d4d5f;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin: 15px auto;
+    border-radius: 15px;
     font-size: 25px;
     color: #0d1522;
     font-weight: 500;
+    border: 2px solid #4d4d5f;
+    padding-top: 15px;
 }
 
 .HomeCard:hover{

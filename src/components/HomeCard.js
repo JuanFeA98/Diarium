@@ -1,10 +1,10 @@
 import * as React from 'react';
 import '../styles/homecard.css'
 
-const HomeCard = ()=>{
+const HomeCard = (props)=>{
     return(
         <div className="HomeCard">
-            <p>New list</p>
+            <p>{props.name}</p>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby'
-import Logo from '../images/book.png'
+// import Logo from '../images/book.png'
 
 import '../styles/header.css'
 

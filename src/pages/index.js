@@ -1,4 +1,6 @@
 import * as React from "react"
+import { Link } from 'gatsby'
+
 import HomeCard from "../components/HomeCard"
 import Layout from "../components/Layout"
 
@@ -13,7 +15,11 @@ const IndexPage = () => {
               Wellcome!
             </p>
           </div>
-          <HomeCard></HomeCard>
+          <Link to='/NewList'>
+            <HomeCard name='New List' page='/NewList'></HomeCard>
+          </Link>
+          <HomeCard name='My Lists'></HomeCard>
+          <HomeCard name='Settings'></HomeCard>
       </Layout>
     </main>
   )

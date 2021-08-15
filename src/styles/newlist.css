@@ -1,0 +1,11 @@
+.NewList h2{
+    text-align: center;
+    margin: 15px 0;
+    color: white;
+}
+
+.NewList-active{
+    height: 200px;
+    align-items: flex-start;
+    padding-top: 15px;
+}

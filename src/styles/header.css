@@ -1,0 +1,31 @@
+.Header{
+    background: #0d1522;
+    height: 50px;
+}
+
+.Header a{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Header img{
+    width: 30px;
+}
+
+.Header h1{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.dummie{
+    width: 20px;
+    height: 20px;
+    /* background-color: white; */
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0px 7px 0px 12px;
+}

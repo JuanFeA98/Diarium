@@ -1,0 +1,19 @@
+.HomeCard{
+    background: #4d4d5f;
+    margin: 0 20px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #0d1522;
+    font-weight: 500;
+}
+
+.HomeCard:hover{
+    background: transparent;
+    border: 2px solid #4d4d5f;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+body{
+    background: #202530;
+}
+
+.wellcome-message{
+    /* background: red; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wellcome-message p{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}

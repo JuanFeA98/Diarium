@@ -6,12 +6,19 @@ const ListCard = (props)=>{
     
     return(
         <div className="ListCard">
-            <p onClick={()=>setShow(!show)}>{props.name}</p>
+            <p onClick={()=>setShow(true)} className='ListCard-Title'>     
+                {props.name}
+            </p>
             {
                 show?
-                <div className='works'>
-                    <input type="text" placeholder="New List"/>
-                    <button>Create</button>
+                <div className="AddingList">
+                    <div className='works'>
+                        <input type="text" placeholder="New List"/>
+                        <button>Create</button>
+                    </div>
+                    <button className="CancelButton" onClick={()=>setShow(false)}>
+                        Cancel
+                    </button>
                 </div>
                 :null
             }

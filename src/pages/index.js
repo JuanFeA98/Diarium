@@ -19,7 +19,9 @@ const IndexPage = () => {
             <HomeCard name='New List' page='/NewList'></HomeCard>
           </Link>
           <HomeCard name='My Lists'></HomeCard>
-          <HomeCard name='Settings'></HomeCard>
+          <Link to='Settings'>
+            <HomeCard name='Settings'></HomeCard>
+          </Link>
       </Layout>
     </main>
   )

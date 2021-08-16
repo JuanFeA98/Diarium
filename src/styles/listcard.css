@@ -24,18 +24,28 @@
     cursor: pointer;
 } */
 
+.AddingList{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .works{
-    width: 95%;
+    width: 90%;
     height: auto;
     background: rgb(146, 161, 187);
     box-sizing: border-box;
     padding-top: 10px;
     /* padding-left: 15px; */
-    margin-top: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: 20px auto;
     /* transition: 2s; */
 }
 
@@ -65,3 +75,29 @@
     padding: 5px 12px;
     border-radius: 12px;
 }
+
+.ListCard-Title{
+    cursor: pointer;
+}
+
+.CancelButton{
+    box-sizing: border-box;
+    width: 100px;
+    background: #0d1522;
+    color: rgb(146, 161, 187);
+    border: 0;
+    font-size: 18px;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #0d1522;
+    font-weight: 500;
+}   
+
+.CancelButton:hover{
+    background: transparent;
+    border: 2px solid #0d1522;
+    color: #0d1522;
+}
+

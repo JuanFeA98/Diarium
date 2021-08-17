@@ -78,6 +78,11 @@
 
 .ListCard-Title{
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.ListCard-Title:hover{
+    color: white;
 }
 
 .CancelButton{
@@ -93,6 +98,7 @@
     cursor: pointer;
     border: 2px solid #0d1522;
     font-weight: 500;
+    transition: 0.5s;
 }   
 
 .CancelButton:hover{

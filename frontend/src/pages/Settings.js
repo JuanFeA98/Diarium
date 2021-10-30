@@ -20,7 +20,7 @@ const Settings = ()=>{
     }
 
     const handleSubmit = async e =>{
-        e.eventDefault()
+        e.preventDefault()
         setData({ ...data, error:null})
         try {
             const result = await firebase
@@ -62,7 +62,11 @@ const Settings = ()=>{
                         <br/>
                         <br/>
                     </div>
-                    {data.error ? <p style={{color:"red"}}>{data.error}</p>:<p>Hello</p>}
+                    {
+                        data.error!=null? 
+                            <p style={{color:"red"}}>{data.error}</p>
+                        :null
+                    }
                     <input type="submit" value='Register' />
                 </form>
             </div>
